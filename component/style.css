@@ -1,0 +1,1249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+header {
+    position: relative;
+    border-bottom: solid 1px #bbadad;
+    height: 5rem;
+    width: 80rem;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 1rem;
+
+
+}
+
+.logo svg {
+    height: 2rem;
+    width: 8rem;
+}
+
+.headTitle {
+    /* border:  solid 2px black; */
+    height: 4rem;
+    width: 7rem;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    transform: translate(12rem, 1.2rem);
+
+}
+
+.headTitle h6 {
+    color: rgb(205, 196, 196);
+}
+
+.search {
+
+    /* border: solid 2px black; */
+    height: 1.5rem;
+    width: 10rem;
+    transform: translate(48rem, -4rem);
+}
+
+.search input {
+    border-radius: 5px;
+    height: 2rem;
+    width: 18rem;
+    text-align: left;
+    background-color: #F8F8F8;
+    text-align: center;
+}
+
+.search svg {
+    height: 1rem;
+    transform: translate(.8rem, -1.5rem);
+}
+
+.loginBtn {
+    position: absolute;
+    right: 10rem;
+    top: 2rem;
+    height: 2rem;
+    width: 3.5rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.loginBtn p {
+    position: absolute;
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+
+.loginBtn:hover {
+    cursor: pointer;
+    background-color: #0C831F;
+    transform: scale(1.1, 1.1);
+}
+
+.cart {
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    height: 2rem;
+    width: 4.5rem;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0C831F;
+}
+.cart a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    height:1.5rem;
+    width:2rem;
+}
+
+.cart svg {
+    height: 1rem;
+    margin-left: 6px;
+    margin-top: 7px;
+}
+
+.cart p {
+
+    font-size: .6rem;
+    transform: translate(1.6rem, -1.1rem);
+}
+
+.cart:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+
+}
+
+.advertise {
+    height: 10rem;
+    width: 62rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    background-image: url("./image/blink1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+iframe {
+    height: 10rem;
+    width: 61rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    transform: translateX(12.3rem);
+}
+
+.middle {
+    /* border: solid black 2px; */
+    display: flex;
+    height: 48rem;
+    width: 62rem;
+    flex-wrap: wrap;
+    transform: translate(12rem, 0rem);
+}
+
+.middle img {
+    height: 9rem;
+
+}
+.navBar{
+    width:20rem;
+    height:2rem;
+    text-align: center;
+    transform: translate(22rem,-2rem);  
+    /* border:solid black 2px; */
+   
+}
+.navBar li{
+    list-style-type: none;
+    float: left;
+   margin-left: 1rem;;
+    margin-top:.3rem;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navBar a{
+    text-decoration: none;   
+}
+.navBar li:hover{
+    cursor: pointer;
+    background-color: #0C831F;
+    transform: scale(1.3, 1.3);
+}
+.middleItem{
+    /* border:solid 2px black; */
+    width:7rem;
+
+}
+.myItem{
+    height:2rem;
+    width:2rem;
+    border-radius: 50%;
+    background-color: none;
+    margin-left:4.5rem ;
+}
+.middleItem button:hover{
+    background-color: rgb(30, 10, 10);
+}
+.red{
+    background-color: rgb(240, 6, 6);
+}
+.none{
+    background-color: none;
+}
+.hidden{
+    display: none;
+    border: solid black 2px;
+    position: absolute;
+    z-index: 1;
+    height:20rem;
+    width:20rem;
+    transform: translate(10rem,-6rem);
+    background-color: rgba(231, 236, 235, 0.913);
+    
+}
+.hidden img{
+ 
+    height: 8rem;
+    width: 10rem;
+}
+.middleItem:hover .hidden{
+    display: block;
+
+}
+
+
+
+
+
+
+
+
+/* media query */
+@media(max-width:1231px) {
+    header {
+
+        height: 5rem;
+        width: 60rem;
+    }
+
+    .search input {
+
+        height: 2rem;
+        width: 20rem;
+
+    }
+
+    .search svg {
+        height: 1rem;
+        transform: translate(-20rem, 0.2rem);
+    }
+
+    iframe {
+        height: 10rem;
+        width: 61rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(8rem);
+    }
+
+    .middle {
+
+
+
+        transform: translate(8rem, 0rem);
+    }
+
+
+}
+
+@media(max-width:1103px) {
+
+    iframe {
+        height: 10rem;
+        width: 61rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(4rem);
+    }
+
+    .middle {
+
+
+
+        transform: translate(4rem, 0rem);
+    }
+
+
+}
+
+@media(max-width:1037px) {
+
+    iframe {
+        height: 10rem;
+        width: 61rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(2rem);
+    }
+
+    .middle {
+
+
+
+        transform: translate(2rem, 0rem);
+    }
+
+
+}
+
+@media(max-width:1105px) {
+    header {
+
+        height: 5rem;
+        width: 60rem;
+    }
+
+    .search input {
+
+        height: 2rem;
+        width: 20rem;
+
+    }
+
+    .search svg {
+        height: 1rem;
+        transform: translate(-20rem, 0.2rem);
+    }
+
+    iframe {
+        height: 10rem;
+        width: 50rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(8rem);
+    }
+
+    .middle {
+        width: 50rem;
+        height: 30rem;
+
+
+
+        transform: translate(8rem, 0rem);
+    }
+
+
+}
+
+@media(max-width:981px) {
+    header {
+
+        height: 5rem;
+        width: 50rem;
+    }
+
+    .search {
+
+        height: 1.5rem;
+        width: 35rem;
+        transform: translate(20rem, -2rem);
+    }
+
+    .search input {
+
+        height: 2rem;
+        width: 15rem;
+
+    }
+
+    .search svg {
+        height: 1rem;
+        transform: translate(-15rem, 0.2rem);
+    }
+
+    .advertise {
+        height: 10rem;
+        width: 50rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        background-image: url("../image/blink1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    iframe {
+        height: 10rem;
+        width: 50rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(5.5rem);
+    }
+
+    .middle {
+        width: 50rem;
+        height: 30rem;
+        transform: translate(6rem, 0rem);
+    }
+
+
+}
+
+@media(max-width:889px) {
+
+    .advertise {
+        height: 10rem;
+        width: 50rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        background-image: url("../image/blink1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    iframe {
+        height: 10rem;
+        width: 50rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(3rem);
+    }
+
+    .middle {
+        width: 50rem;
+        height: 30rem;
+        transform: translate(3.8rem, 0rem);
+    }
+
+
+}
+
+@media(max-width:851px) {
+
+    .advertise {
+        height: 10rem;
+        width: 40rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        background-image: url("../image/blink1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 40rem;
+    }
+
+    iframe {
+        height: 10rem;
+        width: 40rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(6rem);
+    }
+
+    .middle {
+        width: 45rem;
+        height: 35rem;
+        transform: translate(3.8rem, 0rem);
+    }
+
+
+}
+
+@media(max-width:797px) {
+    header {
+
+        height: 5rem;
+        width: 40rem;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+
+    .headTitle {
+        /* border:  solid 2px black; */
+        height: 4rem;
+        width: 7rem;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        transform: translate(8rem, 1.2rem);
+
+    }
+
+    .search {
+
+        height: 1.5rem;
+        width: 35rem;
+        transform: translate(14rem, -2rem);
+    }
+
+    .search input {
+
+        height: 2rem;
+        width: 10rem;
+
+    }
+
+    .search svg {
+        height: 1rem;
+        transform: translate(-10rem, 0.2rem);
+    }
+
+    .loginBtn {
+
+        right: 10rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.5rem;
+
+    }
+
+    .cart {
+
+        right: 3rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.8rem;
+    }
+
+    .advertise {
+        height: 10rem;
+        width: 50rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        background-image: url("../image/blink1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 38rem;
+    }
+
+    iframe {
+        height: 10rem;
+        width: 40rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(5rem);
+    }
+
+    .middle {
+        width: 40rem;
+        height: 35rem;
+        transform: translate(6rem, 0rem);
+    }
+
+
+}
+
+@media(max-width:723px) {
+    header {
+
+        height: 5rem;
+        width: 40rem;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+
+    .headTitle {
+        /* border:  solid 2px black; */
+        height: 4rem;
+        width: 7rem;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        transform: translate(8rem, 1.2rem);
+
+    }
+
+    .search {
+
+        height: 1.5rem;
+        width: 35rem;
+        transform: translate(14rem, -2rem);
+    }
+
+    .search input {
+
+        height: 2rem;
+        width: 10rem;
+
+    }
+
+    .search svg {
+        height: 1rem;
+        transform: translate(-10rem, 0.2rem);
+    }
+
+    .loginBtn {
+
+        right: 10rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.5rem;
+
+    }
+
+    .cart {
+        right: 3rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.8rem;
+    }
+
+    .advertise {
+        height: 10rem;
+        width: 50rem;
+        margin: 1rem -1rem;
+        border-radius: 10px;
+        background-image: url("../image/blink1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 38rem;
+    }
+
+    iframe {
+        height: 10rem;
+        width: 40rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(3rem);
+    }
+
+    .middle {
+        width: 40rem;
+        height: 35rem;
+        transform: translate(6rem, 0rem);
+    }
+
+
+}
+
+@media(max-width:687px) {
+    header {
+
+        height: 5rem;
+        width: 40rem;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+
+    .headTitle {
+        /* border:  solid 2px black; */
+        height: 4rem;
+        width: 7rem;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        transform: translate(8rem, 1.2rem);
+
+    }
+
+    .search {
+
+        height: 1.5rem;
+        width: 35rem;
+        transform: translate(14rem, -2rem);
+    }
+
+    .search input {
+
+        height: 2rem;
+        width: 10rem;
+
+    }
+
+    .search svg {
+        height: 1rem;
+        transform: translate(-10rem, 0.2rem);
+    }
+
+    .loginBtn {
+
+        right: 10rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.5rem;
+
+    }
+
+    .cart {
+        right: 3rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.8rem;
+    }
+
+    .advertise {
+        height: 10rem;
+        width: 50rem;
+        margin: 1rem -3rem;
+        border-radius: 10px;
+        background-image: url("../image/blink1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 38rem;
+    }
+
+    iframe {
+        height: 10rem;
+        width: 40rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(1rem);
+    }
+
+    .middle {
+        width: 40rem;
+        height: 35rem;
+        transform: translate(3rem, 0rem);
+    }
+   
+
+
+}
+
+@media(max-width:657px) {
+    header {
+
+        height: 5rem;
+        width: 33rem;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 2rem;
+        margin-left: -1.5rem;
+    }
+
+    .headTitle {
+        /* border:  solid 2px black; */
+        height: 4rem;
+        width: 7rem;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        transform: translate(7rem, 1.2rem);
+
+    }
+
+    .search {
+
+        height: 1.5rem;
+        width: 35rem;
+        transform: translate(13rem, -2rem);
+    }
+
+    .search input {
+
+        height: 2rem;
+        width: 8rem;
+
+    }
+
+    .search svg {
+        height: 1rem;
+        transform: translate(-8rem, 0.2rem);
+    }
+
+    .loginBtn {
+
+        right: 8rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.5rem;
+
+    }
+
+    .cart {
+        right: 3rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.8rem;
+    }
+
+    .advertise {
+        height: 10rem;
+        width: 50rem;
+        margin: 1rem -5rem;
+        border-radius: 10px;
+        background-image: url("../image/blink1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 35rem;
+    }
+
+    iframe {
+        height: 10rem;
+        width: 35rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(3rem);
+    }
+
+    .middle {
+        width: 40rem;
+        height: 35rem;
+        transform: translate(2rem, 0rem);
+    }
+
+
+}
+
+@media(max-width:609px) {
+    header {
+
+        height: 5rem;
+        width: 33rem;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 2rem;
+        margin-left: -1.5rem;
+    }
+
+    .headTitle {
+        /* border:  solid 2px black; */
+        height: 4rem;
+        width: 7rem;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        transform: translate(7rem, 1.2rem);
+
+    }
+
+    .search {
+
+        height: 1.5rem;
+        width: 35rem;
+        transform: translate(13rem, -2rem);
+    }
+
+    .search input {
+
+        height: 2rem;
+        width: 8rem;
+
+    }
+
+    .search svg {
+        height: 1rem;
+        transform: translate(-8rem, 0.2rem);
+    }
+
+    .loginBtn {
+
+        right: 8rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.5rem;
+
+    }
+
+    .cart {
+        right: 3rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.8rem;
+    }
+
+    .advertise {
+        height: 10rem;
+        width: 50rem;
+        margin: 1rem -6rem;
+        border-radius: 10px;
+        background-image: url("../image/blink1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 35rem;
+    }
+
+    iframe {
+        height: 10rem;
+        width: 35rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(1rem);
+    }
+
+    .middle {
+        width: 40rem;
+        height: 35rem;
+        transform: translate(1rem, 0rem);
+    }
+
+
+}
+
+@media(max-width:575px) {
+    header {
+
+        height: 5rem;
+        width: 33rem;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 2rem;
+        margin-left: -1.5rem;
+    }
+
+    .headTitle {
+        /* border:  solid 2px black; */
+        height: 4rem;
+        width: 7rem;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        transform: translate(7rem, 1.2rem);
+
+    }
+
+    .search {
+
+        height: 1.5rem;
+        width: 35rem;
+        transform: translate(13rem, -2rem);
+    }
+
+    .search input {
+
+        height: 2rem;
+        width: 8rem;
+
+    }
+
+    .search svg {
+        height: 1rem;
+        transform: translate(-8rem, 0.2rem);
+    }
+
+    .loginBtn {
+
+        right: 8rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.5rem;
+
+    }
+
+    .cart {
+        right: 3rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.8rem;
+    }
+
+    .advertise {
+        height: 8rem;
+        width: 50rem;
+        margin: 1rem -8rem;
+        border-radius: 10px;
+        background-image: url("../image/blink1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30rem;
+    }
+
+    iframe {
+        height: 10rem;
+        width: 30rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(2rem);
+    }
+
+    .middle {
+        width: 35rem;
+        height: 35rem;
+        transform: translate(2rem, 0rem);
+    }
+
+}
+
+@media(max-width:555px) {
+    header {
+
+        height: 5rem;
+        width: 30rem;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 2rem;
+        margin-left: -1.5rem;
+    }
+
+    .headTitle {
+        /* border:  solid 2px black; */
+        height: 4rem;
+        width: 7rem;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        transform: translate(7rem, 1.2rem);
+
+    }
+
+    .search {
+
+        height: 1.5rem;
+        width: 35rem;
+        transform: translate(13rem, -2rem);
+    }
+
+    .search input {
+
+        height: 2rem;
+        width: 8rem;
+
+    }
+
+    .search svg {
+        height: 1rem;
+        transform: translate(-8rem, 0.2rem);
+    }
+
+    .loginBtn {
+
+        right: 5rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.5rem;
+
+    }
+
+    .cart {
+        right: 1rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.8rem;
+    }
+
+    .advertise {
+        height: 8rem;
+        width: 50rem;
+        margin: 1rem -8rem;
+        border-radius: 10px;
+        background-image: url("../image/blink1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30rem;
+    }
+
+    iframe {
+        height: 10rem;
+        width: 30rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(2rem);
+    }
+
+    .middle {
+        width: 35rem;
+        height: 35rem;
+        transform: translate(2rem, 0rem);
+    }
+}
+
+@media(max-width:511px) {
+    header {
+
+        height: 5rem;
+        width: 29rem;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 2rem;
+        margin-left: -1.5rem;
+
+    }
+
+    .logo svg {
+        height: 1.5rem;
+        width: 8rem;
+    }
+
+    .headTitle {
+        /* border:  solid 2px black; */
+        height: 4rem;
+        width: 5rem;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        transform: translate(6rem, 1.2rem);
+
+    }
+
+    .search {
+
+        height: 1.5rem;
+        width: 35rem;
+        transform: translate(11rem, -2rem);
+    }
+
+    .search input {
+
+        height: 2rem;
+        width: 8rem;
+
+    }
+
+    .search svg {
+        height: 1rem;
+        transform: translate(-8rem, 0.2rem);
+    }
+
+    .loginBtn {
+
+        right: 6rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.5rem;
+
+    }
+
+    .cart {
+        right: 2rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.8rem;
+    }
+
+    .advertise {
+        height: 8rem;
+        width: 50rem;
+        margin: 1rem -9rem;
+        border-radius: 10px;
+        background-image: url("../image/blink1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30rem;
+    }
+
+    iframe {
+        height: 10rem;
+        width: 30rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(1rem);
+    }
+
+    .middle {
+        width: 35rem;
+        height: 35rem;
+        transform: translate(1rem, 0rem);
+    }
+}
+
+@media(max-width:491px) {
+    header {
+
+        height: 5rem;
+        width: 29rem;
+    }
+
+    .logo {
+        position: absolute;
+        margin-top: 2rem;
+        margin-left: -1.5rem;
+
+    }
+
+    .logo svg {
+        height: 1.5rem;
+        width: 8rem;
+    }
+
+    .headTitle {
+        /* border:  solid 2px black; */
+        height: 4rem;
+        width: 5rem;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        transform: translate(6rem, 1.2rem);
+
+    }
+
+    .search {
+
+        height: 1.5rem;
+        width: 35rem;
+        transform: translate(11rem, -2rem);
+    }
+
+    .search input {
+
+        height: 2rem;
+        width: 8rem;
+
+    }
+
+    .search svg {
+        height: 1rem;
+        transform: translate(-8rem, 0.2rem);
+    }
+
+    .loginBtn {
+
+        right: 6rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.5rem;
+
+    }
+
+    .cart {
+        right: 2rem;
+        top: 2rem;
+        height: 2rem;
+        width: 3.8rem;
+    }
+
+    .advertise {
+        height: 8rem;
+        width: 50rem;
+        margin: 1rem -10rem;
+        border-radius: 10px;
+        background-image: url("../image/blink1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30rem;
+    }
+
+    iframe {
+        height: 10rem;
+        width: 28rem;
+        margin: 1rem auto;
+        border-radius: 10px;
+        transform: translateX(1.5rem);
+    }
+
+    .middle {
+        width: 30rem;
+        height: 45rem;
+        transform: translate(2.5rem, 0rem);
+    }
+}
